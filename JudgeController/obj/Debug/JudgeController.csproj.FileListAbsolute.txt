@@ -1,0 +1,13 @@
+E:\Dropbox\Projects\PoomsaeBoard\JudgeController\bin\Debug\JudgeController.exe.config
+E:\Dropbox\Projects\PoomsaeBoard\JudgeController\bin\Debug\JudgeController.exe
+E:\Dropbox\Projects\PoomsaeBoard\JudgeController\bin\Debug\JudgeController.pdb
+E:\Dropbox\Projects\PoomsaeBoard\JudgeController\bin\Debug\MessageService.dll
+E:\Dropbox\Projects\PoomsaeBoard\JudgeController\bin\Debug\MessageService.pdb
+E:\Dropbox\Projects\PoomsaeBoard\JudgeController\obj\Debug\JudgeController.csprojResolveAssemblyReference.cache
+E:\Dropbox\Projects\PoomsaeBoard\JudgeController\obj\Debug\PoomsaeBoard.JudgeControllerForm.resources
+E:\Dropbox\Projects\PoomsaeBoard\JudgeController\obj\Debug\PoomsaeBoard.PoomsaeScore.resources
+E:\Dropbox\Projects\PoomsaeBoard\JudgeController\obj\Debug\PoomsaeBoard.Properties.Resources.resources
+E:\Dropbox\Projects\PoomsaeBoard\JudgeController\obj\Debug\PoomsaeBoard.ScoreScale.resources
+E:\Dropbox\Projects\PoomsaeBoard\JudgeController\obj\Debug\JudgeController.csproj.GenerateResource.Cache
+E:\Dropbox\Projects\PoomsaeBoard\JudgeController\obj\Debug\JudgeController.exe
+E:\Dropbox\Projects\PoomsaeBoard\JudgeController\obj\Debug\JudgeController.pdb

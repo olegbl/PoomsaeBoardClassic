@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, PoomsaeBoardActivity!</string>
+    <string name="app_name">PoomsaeBoard</string>
+    <string name="technical">Technical</string>
+    <string name="presentation">Presentation</string>
+    <string name="score_initial">0</string>
+    <string name="host">Host</string>
+    <string name="port">Port</string>
+    <string name="passphrase">Passphrase</string>
+    <string name="port_default">3016</string>
+    <string name="host_default">192.168.215.103</string>
+    <string name="passphrase_default">Judge1</string>
+    <string name="connect">Connect</string>
+    <string name="athlete_name">Athlete Name</string>
+    <string name="minorDeduction">Minor Deduction</string>
+    <string name="majorDeduction">Major Deduction</string>
+    <string name="minorUndo">Undo Minor Deduction</string>
+    <string name="majorUndo">Undo Major Deduction</string>
+
+</resources>

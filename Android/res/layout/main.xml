@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical" >
+	
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/disconnected"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical" >
+
+		<LinearLayout
+		android:id="@+id/host_layout"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" >
+
+			<TextView
+			android:id="@+id/host_label"
+			android:layout_width="150dip"
+			android:layout_height="wrap_content"
+			android:text="@string/host"
+			android:gravity="center"
+			android:textAppearance="?android:attr/textAppearanceMedium" />
+
+			<EditText
+			android:id="@+id/host"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:gravity="center"
+			android:inputType="text"
+			android:text="@string/host_default" >
+
+			</EditText>
+		</LinearLayout>
+		
+		<LinearLayout
+		android:id="@+id/port_layout"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" >
+
+			<TextView
+			android:id="@+id/port_label"
+			android:layout_width="150dip"
+			android:layout_height="wrap_content"
+			android:text="@string/port"
+			android:gravity="center"
+			android:textAppearance="?android:attr/textAppearanceMedium" />
+
+			<EditText
+			android:id="@+id/port"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:gravity="center"
+			android:inputType="text"
+			android:text="@string/port_default" >
+
+			</EditText>
+		</LinearLayout>
+		
+		<LinearLayout
+		android:id="@+id/passphrase_layout"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" >
+
+			<TextView
+			android:id="@+id/passphrase_label"
+			android:layout_width="150dip"
+			android:layout_height="wrap_content"
+			android:text="@string/passphrase"
+			android:gravity="center"
+			android:textAppearance="?android:attr/textAppearanceMedium" />
+
+			<EditText
+			android:id="@+id/passphrase"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:gravity="center"
+			android:inputType="text"
+			android:text="@string/passphrase_default" >
+
+			</EditText>
+		</LinearLayout>
+
+		<Button
+		android:id="@+id/connect"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:text="@string/connect" />
+	
+	</LinearLayout>
+	
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/connected"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="horizontal"
+	android:weightSum="1.0">
+		
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="0dip"
+		android:layout_weight="0.2"
+		android:weightSum="1.0"
+		android:layout_height="fill_parent"
+		android:orientation="vertical" >
+			<Button
+			android:id="@+id/minorDeduction"
+			android:layout_width="fill_parent"
+			android:layout_height="0dip"
+			android:layout_weight="0.4"
+			android:text="@string/minorDeduction" />
+			
+			<TextView
+			android:id="@+id/technical_label"
+			android:layout_width="wrap_content"
+			android:layout_height="0dip"
+			android:layout_weight="0.1"
+			android:layout_gravity="center"
+			android:text="@string/technical"
+			android:textAppearance="?android:attr/textAppearanceMedium" />
+			
+			<TextView
+			android:id="@+id/technical"
+			android:layout_width="wrap_content"
+			android:layout_height="0dip"
+			android:layout_weight="0.2"
+			android:layout_gravity="center"
+			android:text="@string/score_initial"
+			android:textStyle="bold"
+			android:textSize="40sp"
+			android:textAppearance="?android:attr/textAppearanceLarge" />
+			
+			<TextView
+			android:id="@+id/ring_label"
+			android:layout_width="wrap_content"
+			android:layout_height="0dip"
+			android:layout_weight="0.1"
+			android:layout_gravity="center"
+			android:textAppearance="?android:attr/textAppearanceMedium" />
+			
+			<Button
+			android:id="@+id/undoMinor"
+			android:layout_width="fill_parent"
+			android:layout_height="0dip"
+			android:layout_weight="0.2"
+			android:text="@string/minorUndo" />
+		</LinearLayout>
+		
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/center"
+		android:layout_width="0dip"
+		android:layout_weight="0.6"
+		android:layout_height="fill_parent"
+		android:orientation="vertical" >
+			<TextView
+			android:id="@+id/athlete_name"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:gravity="center"
+			android:text="@string/athlete_name" />
+		</LinearLayout>
+		
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="0dip"
+		android:layout_weight="0.2"
+		android:weightSum="1.0"
+		android:layout_height="fill_parent"
+		android:orientation="vertical" >
+			<Button
+			android:id="@+id/majorDeduction"
+			android:layout_width="fill_parent"
+			android:layout_height="0dip"
+			android:layout_weight="0.4"
+			android:text="@string/majorDeduction" />
+			
+			<TextView
+			android:id="@+id/presentation_label"
+			android:layout_width="wrap_content"
+			android:layout_height="0dip"
+			android:layout_weight="0.1"
+			android:layout_gravity="center"
+			android:text="@string/presentation"
+			android:textAppearance="?android:attr/textAppearanceMedium" />
+			
+			<TextView
+			android:id="@+id/presentation"
+			android:layout_width="wrap_content"
+			android:layout_height="0dip"
+			android:layout_weight="0.2"
+			android:layout_gravity="center"
+			android:text="@string/score_initial"
+			android:textStyle="bold"
+			android:textSize="40sp"
+			android:textAppearance="?android:attr/textAppearanceLarge" />
+			
+			<TextView
+			android:id="@+id/judge_label"
+			android:layout_width="wrap_content"
+			android:layout_height="0dip"
+			android:layout_weight="0.1"
+			android:layout_gravity="center"
+			android:textAppearance="?android:attr/textAppearanceMedium" />
+			
+			<Button
+			android:id="@+id/undoMajor"
+			android:layout_width="fill_parent"
+			android:layout_height="0dip"
+			android:layout_weight="0.2"
+			android:text="@string/majorUndo" />
+		</LinearLayout>
+	</LinearLayout>
+
+</LinearLayout>

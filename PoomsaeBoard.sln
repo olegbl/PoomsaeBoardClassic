@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 11
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageService", "MessageService\MessageService.csproj", "{51EEC392-0BA4-452D-BB50-18FE02CBCB34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JudgeController", "JudgeController\JudgeController.csproj", "{2D517D4C-3ECF-476B-A644-D9DBBAABE541}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RingController", "RingController\RingController.csproj", "{530B83EA-D50E-45D8-9589-A5E881BE4CA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D517D4C-3ECF-476B-A644-D9DBBAABE541}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D517D4C-3ECF-476B-A644-D9DBBAABE541}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D517D4C-3ECF-476B-A644-D9DBBAABE541}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D517D4C-3ECF-476B-A644-D9DBBAABE541}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51EEC392-0BA4-452D-BB50-18FE02CBCB34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51EEC392-0BA4-452D-BB50-18FE02CBCB34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51EEC392-0BA4-452D-BB50-18FE02CBCB34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51EEC392-0BA4-452D-BB50-18FE02CBCB34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{530B83EA-D50E-45D8-9589-A5E881BE4CA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{530B83EA-D50E-45D8-9589-A5E881BE4CA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{530B83EA-D50E-45D8-9589-A5E881BE4CA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{530B83EA-D50E-45D8-9589-A5E881BE4CA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

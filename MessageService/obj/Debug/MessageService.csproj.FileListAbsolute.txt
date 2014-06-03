@@ -1,0 +1,4 @@
+E:\Dropbox\Projects\PoomsaeBoard\MessageService\bin\Debug\MessageService.dll
+E:\Dropbox\Projects\PoomsaeBoard\MessageService\bin\Debug\MessageService.pdb
+E:\Dropbox\Projects\PoomsaeBoard\MessageService\obj\Debug\MessageService.dll
+E:\Dropbox\Projects\PoomsaeBoard\MessageService\obj\Debug\MessageService.pdb
