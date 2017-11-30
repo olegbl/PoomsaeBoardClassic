@@ -623,10 +623,16 @@
             // 
             this.division_textbox.FormattingEnabled = true;
             this.division_textbox.Items.AddRange(new object[] {
-            "Male Light",
-            "Male Heavy",
-            "Female Light",
-            "Female Heavy"});
+// Correcting the devision
+            "Children (Under  12 Years)",
+"Cadet (12-14 years)",
+"Junior (15-17 years)",
+"Senior (18-30 years)
+"Senior (31 - 40 years)",
+"Senior (41-50 Years)",
+    "Senior (51-60 years)",
+     "Senior (61-65 years)",
+"Senior (66 and above)");
             this.division_textbox.Location = new System.Drawing.Point(105, 43);
             this.division_textbox.Name = "division_textbox";
             this.division_textbox.Size = new System.Drawing.Size(125, 21);
